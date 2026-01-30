@@ -1,0 +1,84 @@
+/* Reset simple */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+/* Background général */
+body {
+    background: linear-gradient(135deg, #ffe4ec, #ffd1dc);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #6b2c3e;
+}
+
+/* Container général (form + dashboard) */
+form, .container {
+    background-color: #fff0f5;
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(255, 182, 193, 0.4);
+    text-align: center;
+    min-width: 300px;
+}
+
+/* Titres */
+h2 {
+    margin-bottom: 20px;
+    color: #c94a6a;
+}
+
+/* Input */
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #f4b6c2;
+    outline: none;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+input[type="text"]:focus {
+    border-color: #e75480;
+    box-shadow: 0 0 5px rgba(231, 84, 128, 0.4);
+}
+
+/* Boutons */
+button {
+    background-color: #f4a6b8;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #e75480;
+    transform: scale(1.05);
+}
+
+/* Lien déconnexion */
+a {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #e75480;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Message bienvenue */
+h2 span {
+    color: #e75480;
+}
