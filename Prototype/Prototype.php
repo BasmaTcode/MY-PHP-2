@@ -1,3 +1,8 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="Prototype.css">
+</html>
+<body>
 <form action="" method="POST">
     <label for="nom">Nom:</label><br>
     <input type="text" id="nom" name="nom"><br><br>
@@ -10,6 +15,7 @@
 
     <input type="submit" name="submit" value="Envoyer">
 </form>
+</body>
 <?php
 if (isset($_POST['submit'])) { // Hna wash user brek ela envoyer
 
