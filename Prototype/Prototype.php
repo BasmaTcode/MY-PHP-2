@@ -44,7 +44,7 @@ if (isset($_POST['submit'])) { // Hna wash user brek ela envoyer
         $errors[] = "Le message est requis."; // Same hna ida message khawi
     }
 
-    // العرض الشرطي
+    // 
     if (!empty($errors)) { // hna ida array fiha akhta2
         echo "<ul style='color:red;'>"; // anbdaw neardohom f wahd list 
         foreach ($errors as $error) { // aneamlu loop eala kul erreur  f array ( loop kadur ela kula element f array)
